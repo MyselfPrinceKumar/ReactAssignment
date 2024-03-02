@@ -1,0 +1,45 @@
+.showMessage{
+    width: 23vw;
+    height: 6vh;
+    background: rgb(42, 185, 42);
+    margin: auto;
+    margin-top: 9vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 4px;
+    font-size: xx-large;
+    border-radius: 23px;
+}
+#hatt{
+    position: relative;
+    transform: translateX(806px);
+    margin-top: -34px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 4vh;
+    width: 2.5vw;
+    border-radius: 30%;
+}
+#hatt:hover{
+    background: aliceblue;
+}
+.list{
+    background-color: green;
+    width: 153px;
+    height: 44px;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+
+    #ULLIST{
+        height: 90px;
+        overflow: auto;
+        position: absolute;
+        bottom: 14vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        list-style-type: none;
+    }

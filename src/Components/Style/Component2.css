@@ -1,0 +1,22 @@
+.custom{
+    color: black;
+    background-color: rgb(77, 221, 77);
+    margin-top:6%;
+    margin-left: 36%;
+    height: 10vh;
+    width: 28vw;
+    border-radius: 23px;
+    font-size: xx-large;
+}
+#cut2{
+    height: 4vh;
+    width: 2.5vw;
+    text-align: center;
+    border-radius: 30%;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+#cut2:hover{
+    background-color: aliceblue;
+}
+

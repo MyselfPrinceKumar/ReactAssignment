@@ -1,0 +1,66 @@
+.timer{
+    width: 32vw;
+    height: 34vh;
+    background: rgb(206, 201, 201);
+    margin: auto;
+    align-items: center;
+    margin-top: 5vh;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(128, 124, 124, 0.1),0px 10px 15px -3px rgba(95, 84, 84, 0.1);
+}
+.timer h3{
+    padding-top: 23px;
+}
+input{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 6px;
+    margin-top: 6%;
+    color: blue;
+    padding-left: 10px;
+}
+::placeholder{
+    padding-left: 12px;
+}
+#showtime{
+    height: 10vh;
+    width: 23vw;
+    background-color: rgb(119, 168, 119);
+    margin: auto;
+    font-size: x-large;
+    border-radius: 23px;
+    margin-top: 8vh;
+}
+button{
+    width: 12vw;
+    height: 6vh;
+    margin-top: 12px;
+    border-radius: 6px;
+    background: rgb(91, 148, 91);
+    cursor: pointer;
+    color: black;
+}
+button:hover{
+    background: green;
+}
+p .cut{
+    cursor: pointer;
+}
+.cut:hover{
+    background: aliceblue;
+    border-radius: 10%;
+}
+.cut{
+    position: absolute;
+    transform: translateX(123px);
+    margin-top: 30px;
+    font-size: x-large;
+    color: black;
+    height: 4vh;
+    width: 2.5vw;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+body{
+    background-color: pink;
+}
